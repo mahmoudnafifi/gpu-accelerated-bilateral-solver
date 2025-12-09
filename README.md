@@ -20,8 +20,7 @@ compared to the CPU-based FBS.
 </p>
 
 
-
-<small><sup>*</sup> Measured on an Intel Core i7-14700K CPU and an NVIDIA GeForce RTX 4080 SUPER (16 GB VRAM); speedups range from 1.8× to 15× depending on the number of iterations.</small>
+###### <sup>*</sup> Measured on an Intel Core i7-14700K CPU and an NVIDIA GeForce RTX 4080 SUPER (16 GB VRAM).
 
 
 ---
