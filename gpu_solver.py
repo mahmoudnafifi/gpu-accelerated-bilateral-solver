@@ -12,9 +12,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 See the License for the specific language governing permissions and limitations under the License.
 For conditions of distribution and use, see the accompanying LICENSE.md file.
 
-Implementation of the GPU-accelerated bilateral solver, as described in the paper:
+Implementation of the GPU-accelerated bilateral solver, as described in the paper: 
 
-“Modular Neural Image Signal Processing.”
+Modular Neural Image Signal Processing (https://arxiv.org/abs/2512.08564).
 
 """
 
@@ -78,4 +78,5 @@ def gpu_bilateral_solver(guide: torch.Tensor, coeff_map: torch.Tensor,
     smooth = (neigh_coeff * w_b).sum(dim=2)
     target = (lam * coeff_map + smooth) * inv_alpha
     out = out + omega * (target - out)
+
   return out
