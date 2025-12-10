@@ -48,7 +48,8 @@ If you use this solver in your research, please cite:
 ```
 @article{afifi2025modular,
   title={Modular Neural Image Signal Processing},
-  author={Afifi, Mahmoud and Wang, Zhongling and Zhang, Ran and Brown, Michael S.},
+  author={Afifi, Mahmoud and Wang, Zhongling and Zhang, Ran and Brown, Michael S},
+  journal={arXiv preprint arXiv:2512.08564},
   year={2025}
 }
 ```
