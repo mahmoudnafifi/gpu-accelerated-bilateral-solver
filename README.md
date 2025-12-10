@@ -1,7 +1,7 @@
 # GPU-Accelerated Iterative Bilateral Solver
 
 This repository provides a standalone implementation of the **GPU-accelerated bilateral solver**
-introduced in our [paper]() (*Modular Neural Image Signal Processing*, Afifi et al., 2025 — supplemental Sec. A).
+introduced in our [paper](https://arxiv.org/abs/2512.08564) (*Modular Neural Image Signal Processing*, Afifi et al., 2025 — supplemental Sec. A).
 
 Our solver is built on the original 
 [Fast Bilateral Solver (FBS)](https://arxiv.org/pdf/1511.03296), 
