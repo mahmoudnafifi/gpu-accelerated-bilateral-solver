@@ -26,7 +26,7 @@ from gpu_solver import gpu_bilateral_solver
 
 
 def imread(img_file: str, single_channel: bool = False) -> np.ndarray:
-    """Reads any 8-bit or 16-bit image and returns a normalized RGB float32 image in [0,1]."""
+    """Reads any 8-bit or 16-bit image and returns a normalized float32 image in [0,1]."""
     if not os.path.exists(img_file):
       raise FileNotFoundError(f'Image not found: {img_file}')
     img = cv2.imread(img_file, cv2.IMREAD_UNCHANGED)
@@ -74,4 +74,5 @@ if __name__ == "__main__":
     root, ext = os.path.splitext(args.input_image_path)
     out_path = root + '_output.png'
     cv2.imwrite(out_path, (refined_img[..., ::-1] * 255).astype(np.uint8))
+
     print(f'Saved refined image to: {out_path}')
